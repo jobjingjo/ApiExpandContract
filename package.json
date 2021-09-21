@@ -1,0 +1,22 @@
+{
+  "name": "apiexpandcontract",
+  "version": "1.0.0",
+  "description": "Api Expand Contract Example",
+  "main": "index.js",
+    "scripts": {
+        "install": "dotnet tool update -g Microsoft.Tye --version '0.11.0-*' --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json",
+        "start": "tye run",
+        "watch": "tye run --watch",
+        "test": "dotnet test"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobjingjo/ApiExpandContract.git"
+  },
+  "author": "jobjingjo@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jobjingjo/ApiExpandContract/issues"
+  },
+  "homepage": "https://github.com/jobjingjo/ApiExpandContract#readme"
+}
