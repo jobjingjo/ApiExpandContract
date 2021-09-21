@@ -13,8 +13,8 @@ builder.Services.AddSwaggerGen(setup => setup.SwaggerDoc("v1", new OpenApiInfo()
     Version = "v1",
     Contact = new OpenApiContact()
     {
-        Name = "anuraj",
-        Url = new Uri("https://dotnetthoughts.net")
+        Name = "job",
+        Url = new Uri("https://jobjingjo.github.io/")
     }
 }));
 
